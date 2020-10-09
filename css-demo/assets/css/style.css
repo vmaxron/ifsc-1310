@@ -1,0 +1,70 @@
+/* ---------------Box Sizing----------------- */
+
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* ---------------Global Styles----------------- */
+body{
+  font-family: 'Raleway', sans-serif;
+  margin:0;
+}
+
+header.primary{
+  background-color:#3b638b;
+  text-align:center;
+  color:#ffffff;
+  text-shadow: 2px 2px #000;
+  /* Longform */
+  padding-top:40px;
+  padding-right:40px;
+  padding-bottom:20px;
+  padding-left:40px;
+  
+  /* Shorthand Top/Bottom, Left/Right */
+  padding: 20px 40px;
+  
+  /* Shorthand  T,R,B,L */
+  padding: 40px 40px 20px 40px;
+
+}
+
+header.primary h1{
+  font-size:3.2rem;
+  margin: 20px 0;
+}
+
+header.primary h1 a{
+  text-decoration:none;
+  color:#ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
