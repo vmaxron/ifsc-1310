@@ -31,42 +31,49 @@ body {
 	margin-right: auto;
 	margin-left: auto;
 	position:relative;
+	
 }
+
+#wrapper > div {
+	width:120px;
+	height:120px;
+	}
 #red {
 	background-color: #900;
-	height:125px;
-	width:125px;
+	position:absolute;
+	top:0;
+	left:0;
+	
 }
 #green {
 	background-color: #090;
-	height:125px;
-	width:125px;
 	position:absolute;
+	top:0;
 	right:0;
-	top:125px;
 }
 #blue {
 	background-color: #00F;
-	height:125px;
-	width:125px;
+	position:absolute;
+	bottom:0;
 	left:0;
-	bottom:125px;
+	
 }
 #purple {
 	background-color: #63C;
-	height:125px;
-	width:125px;
 	position:absolute;
 	bottom:0;
-	right:0px;
+	right:0;
+	
 }
-#footer {
+div#footer {
 	background-color: #666;
-	height:125px;
-	width:125px;
 	position:absolute;
-	left:325px;
-	bottom:250px;
+	top:50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	width:40vw;
+
+	
 }
 h1 {
 	color: #000;
@@ -77,7 +84,7 @@ h1 {
 </head>
 
 <body>
-<h1>Absolute-2</h1>
+<h1>Absolute 2</h1>
 <div id="wrapper">
   <div id="red">Red</div>
   <div id="green">Green</div>
