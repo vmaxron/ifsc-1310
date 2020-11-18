@@ -1,0 +1,31 @@
+body{ background-color:lime;
+
+}
+
+html {
+  box-sizing: border-box;
+}
+
+
+/*--------Utility Styles-------*/
+.container{
+  width:75%;
+  margin:40px auto;
+  max-width:80%;
+}
+
+/*---------Global Styles--------*/
+body{
+font-family: 'Baloo Chettan 2', cursive;
+  margin:0;}
+ 
+ .container{
+   color:blue;
+  width:80vw;
+  margin:40px auto;
+  max-width:900px;
+
+  
+}
+
+
